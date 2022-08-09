@@ -23,15 +23,12 @@ function exibeConselho() {
     .then(function(response) {
         return response.blob();
     })
-    .then(function(myBlob) {
-        var objectURL = URL.createObjectURL(myBlob);
-        console.log(myBlob)
-        myImage.src = objectURL;
+    .then(function(response) {
         // let newUrl = response.url
         // console.log(newUrl)
-        // let novaImg = document.createElement('img');
-        // novaImg.innerHTML = `<img src="${url}" alt="Imagem de um gatinho" class="imagem__gato"></img>`
-        // containerImg.appendChild(novaImg);
+        let novaImg = document.createElement('img');
+        novaImg.innerHTML = `<img src="${url}" alt="Imagem de um gatinho" class="imagem__gato"></img>`
+        containerImg.appendChild(novaImg);
     }) 
     .catch(error => console.log(error))
 
