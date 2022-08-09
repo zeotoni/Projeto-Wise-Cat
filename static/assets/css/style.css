@@ -1,0 +1,104 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+   margin: 3rem 4rem 4rem 4rem;
+   display: flex;
+}
+
+.conteudo__principal {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 9rem 3rem 3rem 12rem;
+    /* text-align: center; */
+}
+
+.titulo__principal {
+    color: #BAA193;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.titulo__principal-destaque {
+    display: block;
+    color: #72005F;
+    font-size: 8rem;
+    font-weight: 900;
+    padding-bottom: 3rem;
+}
+
+.botao__conselho a {
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+.botao__conselho {
+    background-color: #72005F;
+    border: 1px solid #72005F;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 1.2rem 3.5rem;
+}
+
+.botao__conselho:hover{
+    cursor: pointer;
+}
+
+.wise-goat {
+    width: 350px;
+    height: 450px;
+    padding-left: 3rem;
+}
+
+/*--------página de conselho--------- */
+
+.container__conselho {
+    margin: 2rem;
+}
+
+.titulo__principal-conselho {
+    font-size: 2rem;
+    padding: 0;
+}
+
+.titulo__principal-destaque-conselho {
+    font-size: 6rem;
+    padding: 0;
+}
+
+.caixa__conselho {
+    box-sizing: border-box;
+    margin: 0 auto 5rem auto;
+    background-color: #F0DDEE;
+    width: 900px;
+    height: 350px;
+}
+
+.conselho {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 5rem 5rem 1rem 5rem;
+    color: #72005F;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.conselho__autor {
+    color: #BAA193;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 250px;
+}
+
+.container-imagem {
+    width: 50%;
+    height: 100px;
+    float: right;
+}
+
+.imagem__gato {
+    position: absolute;
+    float: right;
+}
