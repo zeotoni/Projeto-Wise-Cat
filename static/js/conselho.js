@@ -19,6 +19,7 @@ function exibeConselho() {
         .catch(error => console.log(error))
 
 
+<<<<<<< HEAD
     var myImage = document.querySelector('[data-img]');
     let url = `https://api.thecatapi.com/v1/images/search`;
     fetch(url)
@@ -34,6 +35,21 @@ function exibeConselho() {
             myImage.src = urlImagemGatinho;
         })
         .catch(error => console.log(error))
+=======
+    
+    let url = `https://api.thecatapi.com/v1/images/search`;
+    fetch(url)
+    .then(function(response) {
+        return response.blob();
+    })
+    .then(function(response) {
+        console.log(response)
+        let novaImg = document.createElement('img');
+        novaImg.innerHTML = `<img src="${url}" alt="Imagem de um gatinho" class="imagem__gato"></img>`
+        containerImg.appendChild(novaImg);
+    }) 
+    .catch(error => console.log(error))
+>>>>>>> 55c8446 (resolvendo erro no código)
 
 }
 
