@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="./static/assets/css/style.css">
 </head>
 <body onload="exibeConselho()">
-    <header class="container__conselho">
-        <h1 class="titulo__principal titulo__principal-conselho">Wise<span class="titulo__principal-destaque titulo__principal-destaque-conselho">Cat</span></h1>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Wise<span class="cabecalho__titulo-destaque">Cat</span></h1>
     </header>
-    <main class="container__conselho caixa__conselho">
+    <main class="container__conselho">
         <div>
-            <p id="conselho-mensagem" class="conselho"><br></p>
+            <p data-msg="conselho-mensagem" class="conselho"><br></p>
             <p class="conselho__autor">- Cat</p>  
         </div>
-        <div id="container-imagem" class="container-imagem">
-            <img class="img" alt="imagem de um gatinho" width="350px" height="350px">        
+        <div data-container="container-imagem">
+            <img data-img="conselho-imagem" class="conselho__imagem" alt="imagem de um gatinho" width="350px" height="350px">        
         </div>        
     </main>
     <script src="./static/js/conselho.js"></script>

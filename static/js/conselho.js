@@ -1,7 +1,6 @@
-const exibirConselho = document.querySelector('#conselho-mensagem');
-const exibirImagem = document.querySelector('#container__conselho')
-const containerImg = document.querySelector('#container-imagem')
-const myImage = document.querySelector('img')
+const exibirConselho = document.querySelector('[data-msg="conselho-mensagem"]');
+const containerImg = document.querySelector('[data-container="container-imagem"]');
+const myImage = document.querySelector('[data-img="conselho-imagem"]');
 
 const exibeConselho = () => {
 
@@ -11,7 +10,6 @@ const exibeConselho = () => {
         })
         .then(function (objeto) {
             const found = objeto.slip.advice;
-            console.log(found)
             exibirConselho.innerHTML = found;
         })
         .catch(error => console.log(error))
