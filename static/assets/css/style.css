@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ffecfc;
+    /* background-color: #f3e9f2; */
 }
 
 .container{
@@ -38,6 +39,7 @@ body{
 }
 
 .botao__conselho:hover{
+    transition: 0.3s;
     cursor: pointer;
     padding: 1.5rem 3.8rem;
 
