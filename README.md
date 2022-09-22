@@ -13,3 +13,6 @@
 <h2>Acesso ao projeto</h2>
 
 * Para testar, acesse: https://wise-cat.vercel.app/
+
+
+<br>Desenvolvido por www.linkedin.com/in/zeotoni
