@@ -10,3 +10,6 @@
 <p>O desafio proposto era criar uma página onde o usuário pede um conselho aleatório e esse conslho é exibido na tela ao lado de uma imagem tambem aleatória. Tanto o conselho quanto a imagem sâo consumidos de uma API. Para esse desafio foi utilizado HTML5, CSS e JavaScript. O consumo de api e exibição é dinâmico com JS e, a cada clique do usuário são exibidos nova imagem e conselho. A tela inicial possui uma animação feita com css puro para dar a ideia do gatinho estar flutuando.</p>
 <img src="https://user-images.githubusercontent.com/87879397/191821212-8746173d-652c-4f05-9f0c-364fab90a7a7.png">
 <img src="https://user-images.githubusercontent.com/87879397/191821822-1760a300-d38a-4250-93fb-79e045eda377.png">
+<h2>Acesso ao projeto</h2>
+
+* Para testar, acesse: https://wise-cat.vercel.app/
