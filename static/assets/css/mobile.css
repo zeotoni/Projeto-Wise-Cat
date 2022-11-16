@@ -1,0 +1,85 @@
+@media screen and (max-width: 768px) {
+    .container{
+        margin-top: 2rem;
+        display: block;
+        padding: 0 1rem; 
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .titulo__principal {
+        order: 1;
+        font-size: 2rem;
+    }
+
+    .titulo__principal-destaque {
+        font-size: 5rem;
+        padding-bottom: 1rem;
+    }
+
+    .wise-cat {
+        width: 265px;
+        height: 265px;
+        order: 2;
+        margin: 0 auto;
+        padding-bottom: 3rem;
+        position: unset;
+    }
+
+    .botao__conselho {
+        font-size: 1.5rem;
+        padding: 1.2rem 3.5rem;
+        width: 51%;
+        margin: 0 auto;
+        text-align:  center;
+        order: 3;
+    }
+
+    /*--------página de conselho--------- */
+
+    .cabecalho {
+        margin: 0;
+        padding: 2rem 1rem 0;
+    }
+    
+    .cabecalho__titulo-destaque {
+        font-size: 5rem;
+    }
+
+    .container__conselho {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        margin: 1.5rem auto;
+        width: 95%;
+        height: 90vh;
+        background-color: unset;
+    }
+
+    .container-msg {
+        order: 2;
+    }
+
+    .conselho {
+        padding: 2rem 2rem 0;
+        color: #8e0076;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        font-weight: 700;
+    }
+
+    .conselho__autor {
+        margin-left: 225px;
+    }
+
+    .container-imagem {
+        text-align: center;
+    }
+
+    .conselho__imagem {
+        width: 300px;
+        height: 300px;
+    }
+
+}

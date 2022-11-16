@@ -4,11 +4,11 @@ body{
 }
 
 .container{
-   margin-top: 5rem;
-   display: flex;
+   margin-top: 12rem;
+   display: block;
    align-items: center;
    justify-content: space-evenly;
-   padding: 0 10rem;
+   padding: 0 18.5rem;
 }
 
 
@@ -48,6 +48,9 @@ body{
     animation: flutua 3s linear infinite alternate;
     width: 356px;
     height: 478px;
+    position: absolute;
+    top: 3rem;
+    left: 45rem;
 }
 
 @keyframes flutua {
@@ -83,7 +86,7 @@ body{
     justify-content: space-between;
     box-sizing: border-box;
     border-radius: 20px;
-    margin: 0 auto 5rem auto;
+    margin: 0 auto;
     background-color: #F0DDEE;
     width: 900px;
     height: 350px;
@@ -106,4 +109,6 @@ body{
 
 .conselho__imagem {
     border-radius: 20px;
+    width: 350px;
+    height: 350px;
 }

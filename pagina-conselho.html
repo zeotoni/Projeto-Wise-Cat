@@ -10,18 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./static/assets/css/reset.css">
     <link rel="stylesheet" href="./static/assets/css/style.css">
+    <link rel="stylesheet" href="./static/assets/css/mobile.css">
 </head>
 <body onload="exibeConselho()">
     <header class="cabecalho">
         <h1 class="cabecalho__titulo">Wise<span class="cabecalho__titulo-destaque">Cat</span></h1>
     </header>
     <main class="container__conselho">
-        <div>
+        <div class="container-msg">
             <p data-msg="conselho-mensagem" class="conselho"><br></p>
             <p class="conselho__autor">- Cat</p>  
         </div>
-        <div data-container="container-imagem">
-            <img data-img="conselho-imagem" class="conselho__imagem" width="350px" height="350px">        
+        <div data-container="container-imagem" class="container-imagem">
+            <img data-img="conselho-imagem" class="conselho__imagem">        
         </div>  
     </main>
     <script src="./static/js/conselho.js"></script>
